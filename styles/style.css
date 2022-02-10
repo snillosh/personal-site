@@ -7,11 +7,11 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #EFDAD7;
+    background-color: #00ADB5;
 }
 
 img {
@@ -22,7 +22,7 @@ h1, h2 {
     margin-bottom: 15px;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
 }
 
@@ -33,7 +33,7 @@ ul {
 }
 
 .navbar {
-    background-color: #1572A1;
+    background-color: #222831;
     color: #fff;
     height: 60px;
 }
@@ -56,8 +56,8 @@ ul {
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     height: 100%;
 }
 
@@ -70,9 +70,9 @@ ul {
 }
 
 .header {
-    background-color: #9AD0EC;
-    color: black;
-    min-height: 400px;
+    background-color: #393E46;
+    color: #fff;
+    min-height: 300px;
 }
 
 .header h1 {
@@ -82,14 +82,14 @@ ul {
 }
 
 .header img {
-    max-width: 400px;
+    max-width: 300px;
     padding: 30px;
 }
 
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .boxes .container {
@@ -99,12 +99,19 @@ ul {
 
 .box {
     flex: 1;
-    background-color: #E3BEC6;
+    background-color: #EEEEEE;
     color: black;
     border-radius: 10px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
+}
+
+.box-image {
+    height: auto;
+    width: 25%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 @media(max-width: 768px) {
@@ -118,4 +125,38 @@ ul {
         display: block;
         text-align: center;
     }
+}
+
+.box ul {
+    margin-left: 10px;
+}
+
+.projects-gif {
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.projects .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.projects-box {
+    display: flex;
+    background-color: #EEEEEE;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.project-box-title-and-description {
+    margin-left: 20px;
+}
+
+.header.sub {
+    min-height: 150px;
 }
